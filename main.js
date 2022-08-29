@@ -35,7 +35,7 @@ function dividir() {
 let resultadoFinal = 0
 let operacionSeleccionada = parseInt(
     prompt(
-        'Ingresa la operacion que quieres realizar: 1-sumar\n2-restar\n3-dividir\n4-multiplicar'
+        'Ingresa la operacion que quieres realizar: \n1-sumar\n2-restar\n3-dividir\n4-multiplicar'
     )
 )
 let seguirOperando = true
@@ -51,14 +51,14 @@ while (seguirOperando === true) {
     } else if (operacionSeleccionada === 4) {
         dividir()
     } else {
-        operacionSeleccionada = parseInt(prompt('Ingresa una operacion existente; 1-sumar\n2-restar\n3-dividir\n4-multiplicar'))
+        operacionSeleccionada = parseInt(prompt('Ingresa una operacion existente; \n1-sumar\n2-restar\n3-dividir\n4-multiplicar'))
         continue
     }
-    decision = parseInt(prompt('Quieres realizar otra operacion? 1.Si - 2.No'))
+    decision = parseInt(prompt('Quieres realizar otra operacion? \n1.Si\n2.No'))
   if (decision === 1) {
     operacionSeleccionada = parseInt(
       prompt(
-        'Ingresa la operacion que quieres realizar: 1-sumar\n2-restar\n3-dividir\n4-multiplicar'
+        'Ingresa la operacion que quieres realizar: \n1-sumar\n2-restar\n3-dividir\n4-multiplicar'
       )
     )
   } else if (decision === 2) {
